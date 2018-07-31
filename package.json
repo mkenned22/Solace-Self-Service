@@ -1,0 +1,29 @@
+{
+  "name": "Solace-Development",
+  "version": "1.0.0",
+  "description": "",
+  "main": "TopicPublisher.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkenned22/Solace-Development.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mkenned22/Solace-Development/issues"
+  },
+  "homepage": "https://github.com/mkenned22/Solace-Development#readme",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "mysql": "^2.15.0",
+    "request": "^2.87.0",
+    "solclientjs": "^10.0.1"
+  }
+}

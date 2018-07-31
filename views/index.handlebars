@@ -1,0 +1,7 @@
+{{!-- High level page layout --}}
+{{> navbar}}
+{{> configure}}
+{{!-- This part will only be returned if data is returned during the post request in the "configure" section --}}
+{{#with data}}
+    {{> publish}}
+{{/with}}
